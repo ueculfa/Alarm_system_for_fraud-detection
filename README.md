@@ -1,13 +1,13 @@
 # DOLANDIRCILIK TESPİTİNDE ALARM VEREN SİSTEM
 
-Bu proje, gerçek banka hesap hareketlerinden oluşturulan bir veri seti üzerinde dolandırıcılık Tespiti (Fraud Detection) yapmak amacıyla geliştirilmiş bir Pekiştirmeli Öğrenme (Reinforcement Learning) ve Denetimli Öğrenme (Supervised Learning) tabanlı makine öğrenimi ile yapılan bir sistemdir.
+Bu proje, gerçek banka hesap hareketlerinden oluşturulan bir veri seti üzerinde dolandırıcılık Tespiti (Fraud Detection) yapmak amacıyla geliştirilmiş bir Pekiştirmeli Öğrenme (Reinforcement Learning) ve Denetimli Öğrenme (Supervised Learning) tabanlı makine öğrenimi ile yapılan bir projedir. Dolandırıcılık tespiti için yapılan bu çalışma da kendi banka veri setimi kullandığım için veri setini dosya dizininin de paylaşmadım. Ama örnek ve etiketler görünecek şekilde görsel olarak dosyalarda bulabilirsiniz.
 
 ## Projenin Amacı
 Gerçek hayattaki banka işlemlerine benzer bir akış üzerinde:
-- Her işlemde alarm ver / verme kararı üretmek.
-- Fraud tespit edilirse ödül kazanmak / Fraud kaçırıldığında büyük ceza almak.
+- Her işlemde alarm ver veya verme kararı üretmek.
+- Fraud tespit edilirse ödül kazanmak, Fraud kaçırıldığında büyük ceza almak.
 - Yanlış alarmlarda ceza almak.
-- Böylece fraud tespitini optimize eden bir politika (policy) üretmek.
+- Böylece fraud tespitini optimize eden bir policy üretmek.
 
 ##  Proje Mimarisi
 Ana aşamalar:
@@ -19,13 +19,12 @@ Ana aşamalar:
 6) Supervised policy testi
 7) Grafik ve Q-table üretimi
 
-## 🔬 Veri Temizleme Kısmında Yapılan Değişiklikler
-- UTF-8 encoding düzeltildi.
-- Tarih → datetime olarak yapıldı.
-- Tutar → float olarak çevirildi.
+## Veri Temizleme Kısmı
+- Tarih --> datetime olarak yapıldı.
+- Tutar --> float olarak çevirildi.
 - Başlık ve bozuk satırlar temizlendi.
 
-Çıktı: **hesap_hareketleri_clean.csv**
+Çıktı: hesap_hareketleri_clean.csv
 
 ### Action:
 - 0 → normal
@@ -52,5 +51,5 @@ Toplam reward ≈ -430
 - `OdulKumulatif.png`
 - `rewardOrnek.png`
 - `OdulTablo.csv`
-
+- `veriTablo.png`
 
