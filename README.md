@@ -44,7 +44,7 @@ Toplam reward ≈ -430
 ## Logistic Regression Policy
 - `train_baseline.py` ile eğitildi.
 - `eval_baseline_policy.py` ile RL ortamında test edildi.
-- Toplam reward ≈ +1084
+- Toplam reward ≈ +1084 (rewardOrnek.png)
 
 ## Sonuç Grafik ve Tablo
 - `OdulAdımsal.png`
