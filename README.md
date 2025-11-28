@@ -24,8 +24,6 @@ Ana aşamalar:
 - Tutar --> float olarak çevirildi.
 - Başlık ve bozuk satırlar temizlendi.
 
-Çıktı: hesap_hareketleri_clean.csv
-
 ### Action:
 - 0 → normal
 - 1 → alarm
