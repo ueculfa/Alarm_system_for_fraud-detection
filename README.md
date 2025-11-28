@@ -1,6 +1,6 @@
 # DOLANDIRCILIK TESPİTİNDE ALARM VEREN SİSTEM
 
-Bu proje, gerçek banka hesap hareketlerinden oluşturulan bir veri seti üzerinde dolandırıcılık Tespiti (Fraud Detection) yapmak amacıyla geliştirilmiş bir Pekiştirmeli Öğrenme (Reinforcement Learning) ve Denetimli Öğrenme (Supervised Learning) tabanlı makine öğrenimi ile yapılan bir projedir. Dolandırıcılık tespiti için yapılan bu çalışma da kendi banka veri setimi kullandığım için veri setini dosya dizininin de paylaşmadım. Ama örnek ve etiketler görünecek şekilde görsel olarak dosyalarda bulabilirsiniz. (veriTablo .png)
+Bu proje, gerçek banka hesap hareketlerinden oluşturulan bir veri seti üzerinde dolandırıcılık Tespiti (Fraud Detection) yapmak amacıyla geliştirilmiş bir Pekiştirmeli Öğrenme (Reinforcement Learning) ve Denetimli Öğrenme (Supervised Learning) tabanlı makine öğrenimi ile yapılan bir projedir. Dolandırıcılık tespiti için yapılan bu çalışma da kendi banka veri setimi kullandığım için veri setini dosya dizinin de paylaşmadım. Ama örnek ve etiketler görünecek şekilde görsel olarak dosyalarda bulabilirsiniz. (veriTablo .png)
 
 ## Projenin Amacı
 Gerçek hayattaki banka işlemlerine benzer bir akış üzerinde:
